@@ -15,10 +15,10 @@ function categoryBMI(){
  if (bmi<18.5){
   category.innerText = "You are Underweight";
  }
- else if(bmi>18.5 || bmi<24.9){
+ else if(bmi>18.5 && bmi<24.9){
   category.innerText = "You hold a Normal Weight";
  }
- else if (bmi>24.9 || bmi<29.9){
+ else if (bmi>24.9 && bmi<29.9){
   category.innerText = "You are Overweighted";
  }
  else if (bmi>29.9){
